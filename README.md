@@ -1,1 +1,91 @@
-# PremiumP_links
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться с нами</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .telegram {
+            background: #2AABEE;
+        }
+
+        .whatsapp {
+            background: #25D366;
+        }
+
+        .max {
+            background: #ff6600;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Логотип -->
+    <img src="logo.png" alt="Логотип" class="logo">
+
+    <!-- Текст -->
+    <h2>Связаться с нами:</h2>
+
+    <!-- Кнопки -->
+    <div class="buttons">
+        <a href="https://t.me/premiumprostranstvo" class="btn telegram">Telegram</a>
+        <a href="https://wa.me/message/U3WOPP4S6X6BO1" class="btn whatsapp">WhatsApp</a>
+        <a href="https://max.ru/u/f9LHodD0cOL4YQtkBHqWuKCtrDVc_9RqLCxc6v3_2r78DPpkH1Q3wv2wiw4" class="btn max">MAX</a>
+    </div>
+
+</div>
+
+</body>
+</html>
